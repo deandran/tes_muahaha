@@ -1,0 +1,17 @@
+{
+  "genre": "runner",
+  "templateId": "runner",
+  "heroName": "Hero",
+  "heroColor": "#3d8b62",
+  "title": "Hero Dash",
+  "subtitle": "Jump. Don't trip. Keep going.",
+  "winText": "You did it!",
+  "loseText": "Almost. Try again.",
+  "hint": "Tap / Space to jump",
+  "winCondition": "distance",
+  "target": 350,
+  "sky": "#f0d9b5",
+  "ground": "#7b8f4a",
+  "obstacleColor": "#6b5344",
+  "itemColor": "#e0b33a"
+}

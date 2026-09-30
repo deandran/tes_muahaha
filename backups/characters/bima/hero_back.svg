@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="768" data-view="back" viewBox="0 0 512 768">
+  <!-- Transparent background on purpose. Hunyuan prefers a clean silhouette. -->
+  <g stroke="#2b2b2b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <polygon fill="#3d8b62" points="186,430 230,430 218,690 150,690"/>
+    <polygon fill="#3d8b62" points="282,430 326,430 362,690 294,690"/>
+    <polygon fill="#f4efe6" points="150,668 218,668 218,690 150,690"/>
+    <polygon fill="#f4efe6" points="294,668 362,668 362,690 294,690"/>
+    <polygon fill="#3d8b62" points="196,250 316,250 336,440 176,440"/>
+    <polygon fill="#3d8b62" points="196,260 176,270 70,390 110,412 196,318"/>
+    <polygon fill="#3d8b62" points="316,260 336,270 442,390 402,412 316,318"/>
+    <polygon fill="#f4efe6" points="70,390 110,412 96,430 56,408"/>
+    <polygon fill="#f4efe6" points="442,390 402,412 416,430 456,408"/>
+    <polygon fill="#3d8b62" points="256,70 340,150 310,240 202,240 172,150"/>
+    <polygon fill="#f4efe6" points="226,175 246,175 246,195 226,195"/>
+    <polygon fill="#f4efe6" points="266,175 286,175 286,195 266,195"/>
+    <polygon fill="#f4efe6" points="186,120 170,46 226,100"/>
+    <polygon fill="#f4efe6" points="326,120 342,46 286,100"/>
+    <polygon fill="#3d8b62" points="176,430 150,430 70,560 110,570 176,470"/>
+  </g>
+</svg>

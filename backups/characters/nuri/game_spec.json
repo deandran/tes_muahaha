@@ -1,0 +1,52 @@
+{
+  "genre": "arena",
+  "template_id": "arena",
+  "mood": "chaotic",
+  "hero": {
+    "name": "Nuri",
+    "description": "a purple robot named Nuri with an antenna",
+    "primary_color": "#7b5ea7",
+    "secondary_color": "#f4efe6",
+    "accent_color": "#2b2b2b",
+    "silhouette": "robot",
+    "extras": [
+      "antenna",
+      "square-head"
+    ],
+    "color_name": "purple"
+  },
+  "enemy": {
+    "name": "Grumpy",
+    "description": "grumpy red blobs",
+    "primary_color": "#e24b4b"
+  },
+  "goal": {
+    "text": "defeat 6 enemies",
+    "win_condition": "kills",
+    "target": 6
+  },
+  "ui_text": {
+    "title": "Nuri Brawl",
+    "subtitle": "defeat 6 enemies",
+    "win": "You did it!",
+    "lose": "Almost. Try again.",
+    "hint": "WASD move \u00b7 Space / tap to attack"
+  },
+  "world": {
+    "sky": "#e07a3d",
+    "ground": "#4a2c23",
+    "fog": "#f3c9a3",
+    "obstacle_color": "#e24b4b",
+    "item_color": "#e0b33a"
+  },
+  "raw_answers": {
+    "genre": "arena",
+    "genre_text": "",
+    "hero": "a purple robot named Nuri with an antenna",
+    "enemy": "grumpy red blobs",
+    "goal": "defeat 6 enemies",
+    "mood": "chaotic"
+  },
+  "parser": "local-slang",
+  "id": "backup-nuri"
+}

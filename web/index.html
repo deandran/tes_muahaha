@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Game Lab</p>
+        <h1>Tell us a tiny idea.<br />We’ll make a tiny game.</h1>
+      </div>
+      <div class="status-card" id="health">
+        <span class="dot"></span>
+        <span id="health-text">Checking…</span>
+      </div>
+    </header>
+
+    <section class="sheet" id="ask">
+      <div class="progress-pips" id="pips"></div>
+      <p class="step-kicker" id="kicker">Question 1 of 5</p>
+      <h2 id="q-title">What kind of game?</h2>
+      <p class="lede" id="q-lede">Pick a shape. You can still type slang or mix Bahasa and English.</p>
+
+      <div id="q-body"></div>
+
+      <div class="nav-row">
+        <button type="button" class="ghost" id="back-btn">Back</button>
+        <button type="button" class="solid" id="next-btn">Next</button>
+      </div>
+    </section>
+
+    <section class="sheet hidden" id="progress">
+      <p class="step-kicker">Making your game</p>
+      <h2 id="live-caption">Reading your answers…</h2>
+      <p class="lede">Nothing here is magic. Each step is a tool, and you can watch it work.</p>
+      <ol class="timeline" id="timeline"></ol>
+      <div class="peek">
+        <div class="peek-art">
+          <img id="peek-img" alt="Hero preview" hidden />
+          <div class="peek-placeholder" id="peek-ph">Your hero will show up here.</div>
+        </div>
+        <div class="peek-meta">
+          <p id="peek-title">—</p>
+          <p id="peek-note">Hunyuan credits are frozen for the demo. We reuse a cached 3D stand-in.</p>
+          <button type="button" class="panic" id="panic-btn">Stage panic: open the backup game</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sheet hidden" id="done">
+      <p class="stamp">Ready</p>
+      <h2 id="done-title">Your game is packed.</h2>
+      <p class="lede" id="done-note">Play it in the browser. Same JSON a Unity template would read.</p>
+      <a class="solid play-link" id="play-link" href="#">Play</a>
+      <p class="tiny"><a href="/" id="again">Make another</a></p>
+    </section>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "genre": "collect",
+  "template_id": "collect",
+  "mood": "cute",
+  "hero": {
+    "name": "Sari",
+    "description": "a small orange kid named Sari with a cape",
+    "primary_color": "#e07a3d",
+    "secondary_color": "#f4efe6",
+    "accent_color": "#2b2b2b",
+    "silhouette": "kid",
+    "extras": [
+      "cape"
+    ],
+    "color_name": "orange"
+  },
+  "enemy": {
+    "name": "Sneaky",
+    "description": "sneaky purple bats",
+    "primary_color": "#7b5ea7"
+  },
+  "goal": {
+    "text": "collect 8 stars",
+    "win_condition": "items",
+    "target": 8
+  },
+  "ui_text": {
+    "title": "Sari's Hunt",
+    "subtitle": "collect 8 stars",
+    "win": "You did it!",
+    "lose": "Almost. Try again.",
+    "hint": "WASD or arrows to move"
+  },
+  "world": {
+    "sky": "#f4c6d4",
+    "ground": "#8fbf9a",
+    "fog": "#ffe8f0",
+    "obstacle_color": "#7b5ea7",
+    "item_color": "#e0b33a"
+  },
+  "raw_answers": {
+    "genre": "collect",
+    "genre_text": "",
+    "hero": "a small orange kid named Sari with a cape",
+    "enemy": "sneaky purple bats",
+    "goal": "collect 8 stars",
+    "mood": "cute"
+  },
+  "parser": "local-slang",
+  "id": "backup-sari"
+}

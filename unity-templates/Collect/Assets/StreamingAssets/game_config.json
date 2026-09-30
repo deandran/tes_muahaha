@@ -1,0 +1,17 @@
+{
+  "genre": "collect",
+  "templateId": "collect",
+  "heroName": "Sari",
+  "heroColor": "#c45c26",
+  "title": "Sari's Hunt",
+  "subtitle": "Grab the shiny things. Watch the clock.",
+  "winText": "You did it!",
+  "loseText": "Almost. Try again.",
+  "hint": "WASD or arrows to move",
+  "winCondition": "items",
+  "target": 8,
+  "sky": "#f4c6d4",
+  "ground": "#8fbf9a",
+  "obstacleColor": "#4a4a62",
+  "itemColor": "#e0b33a"
+}

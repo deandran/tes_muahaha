@@ -1,0 +1,17 @@
+{
+  "genre": "arena",
+  "templateId": "arena",
+  "heroName": "Hero",
+  "heroColor": "#7b5ea7",
+  "title": "Hero Brawl",
+  "subtitle": "Move in, land a hit, stay standing.",
+  "winText": "You did it!",
+  "loseText": "Almost. Try again.",
+  "hint": "WASD move · Space / tap to attack",
+  "winCondition": "kills",
+  "target": 6,
+  "sky": "#e07a3d",
+  "ground": "#4a2c23",
+  "obstacleColor": "#7a4c7a",
+  "itemColor": "#e0b33a"
+}
